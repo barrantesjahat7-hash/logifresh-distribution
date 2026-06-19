@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIFRESH DISTRIBUTION, S.A.</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f7f5;
+            color: #1f2933;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(120deg, #082b4c, #0b5c8a, #2f9b34);
+            color: white;
+            padding: 25px 20px 45px;
+            text-align: center;
+        }
+        .logo-box {
+            background: white;
+            width: 90%;
+            max-width: 680px;
+            margin: 0 auto 18px;
+            padding: 12px;
+            border-radius: 14px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+        }
+        .logo-box img { width: 100%; max-height: 130px; object-fit: contain; }
+        header h1 { margin: 10px 0 5px; font-size: 34px; }
+        header p { margin: 6px 0; font-size: 18px; }
+        .student { font-size: 14px; opacity: 0.95; }
+        nav {
+            background: #05233d;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            text-align: center;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        nav a:hover { color: #8ee08b; }
+        section {
+            width: 90%;
+            max-width: 1100px;
+            margin: 25px auto;
+            background: white;
+            padding: 28px;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #073763;
+            margin-top: 0;
+            border-left: 6px solid #2f9b34;
+            padding-left: 12px;
+        }
+        h3 { color: #0b5c8a; }
+        .hero-grid, .grid, .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 18px;
+        }
+        .box, .card, .service {
+            background: #eef7f1;
+            border-left: 5px solid #2f9b34;
+            padding: 18px;
+            border-radius: 12px;
+        }
+        .service { background: #eef6fb; border-left-color: #0b5c8a; }
+        .number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2f9b34;
+        }
+        ul { padding-left: 20px; }
+        .tag {
+            display: inline-block;
+            background: #0b5c8a;
+            color: white;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .blog-post {
+            border-bottom: 1px solid #d7e3dc;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .blog-post:last-child { border-bottom: none; }
+        .contacto {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 11px;
+            margin: 7px 0 14px;
+            border: 1px solid #b8c7c0;
+            border-radius: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button {
+            background: #2f9b34;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover { background: #237627; }
+        iframe {
+            width: 100%;
+            height: 280px;
+            border: 0;
+            border-radius: 12px;
+        }
+        footer {
+            background: #05233d;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 35px;
+        }
+        .note {
+            background: #f8fbff;
+            border-left: 5px solid #0b5c8a;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        @media(max-width: 600px) {
+            header h1 { font-size: 26px; }
+            nav a { display: inline-block; margin: 6px; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header id="inicio">
+    <div class="logo-box">
+        <img src="logo.png" alt="Logo de Logifresh Distribution S.A.">
+    </div>
+    <h1>LOGIFRESH DISTRIBUTION, S.A.</h1>
+    <p>Distribución y transporte de productos refrigerados</p>
+    <p><strong>Movemos calidad, entregamos confianza</strong></p>
+</header>
+
+<nav>
+    <a href="#nosotros">Quiénes somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#innovacion">Innovación</a>
+    <a href="#blog">Blog</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
+    <h2>Quiénes somos</h2>
+    <p>
+        LOGIFRESH DISTRIBUTION, S.A. es una empresa panameña dedicada a la distribución y transporte de productos refrigerados para supermercados, restaurantes, minisúper, hoteles, farmacias y comercios de alimentos.
+    </p>
+    <p>
+        La empresa surge con la finalidad de ofrecer un servicio logístico más organizado, seguro y eficiente. Para lograrlo, se apoya en herramientas tecnológicas que ayudan a controlar las entregas, optimizar las rutas y mantener la calidad de los productos durante todo el transporte.
+    </p>
+    <p>
+        Contamos con un equipo comprometido con la puntualidad, la atención al cliente y la mejora continua de las operaciones. Nuestra meta es brindar una solución accesible para pequeñas y medianas empresas que necesitan mover mercancía refrigerada sin perder la cadena de frío.
+    </p>
+    <div class="hero-grid">
+        <div class="box">
+            <h3>Necesidad</h3>
+            <p>Contar con una distribución que asegure trazabilidad, control de calidad y mejor uso de los recursos.</p>
+        </div>
+        <div class="box">
+            <h3>Problema</h3>
+            <p>Muchas empresas presentan demoras, rutas mal organizadas, altos costos operativos y poca visibilidad de sus entregas.</p>
+        </div>
+        <div class="box">
+            <h3>Oportunidad</h3>
+            <p>Modernizar la distribución con tecnología, monitoreo en tiempo real y rutas más eficientes.</p>
+        </div>
+    </div>
+</section>
+
+<section id="objetivos">
+    <h2>Objetivos del proyecto</h2>
+    <h3>Objetivo general</h3>
+    <p>
+        Diseñar e implementar un modelo operativo de distribución logística que optimice los tiempos de entrega, reduzca los costos operativos y garantice mayor control de calidad en el traslado de mercancías refrigeradas.
+    </p>
+    <h3>Objetivos específicos</h3>
+    <ul>
+        <li>Analizar rutas críticas para identificar atrasos y proponer alternativas de enrutamiento inteligente.</li>
+        <li>Establecer un sistema de control de calidad y trazabilidad en tiempo real.</li>
+        <li>Desarrollar indicadores de rendimiento como entregas a tiempo, estado de la mercancía e incidencias en ruta.</li>
+    </ul>
+</section>
+
+<section id="servicios">
+    <h2>Portafolio de servicios</h2>
+    <div class="cards">
+        <div class="service">
+            <h3>Transporte refrigerado</h3>
+            <p>Traslado de alimentos, medicamentos y productos que requieren temperatura controlada durante el recorrido.</p>
+        </div>
+        <div class="service">
+            <h3>Distribución comercial</h3>
+            <p>Entrega de mercancías a supermercados, restaurantes, hoteles, farmacias, minisúper y comercios.</p>
+        </div>
+        <div class="service">
+            <h3>Monitoreo de temperatura</h3>
+            <p>Supervisión de sensores en vehículos y cuartos fríos para mantener la cadena de frío.</p>
+        </div>
+        <div class="service">
+            <h3>Rastreo GPS</h3>
+            <p>Seguimiento de las unidades para conocer la ubicación de la mercancía durante el transporte.</p>
+        </div>
+        <div class="service">
+            <h3>Optimización de rutas</h3>
+            <p>Planificación de entregas para reducir tiempos, consumo de combustible y costos operativos.</p>
+        </div>
+        <div class="service">
+            <h3>Atención de reclamos</h3>
+            <p>Comunicación directa con los clientes para dar seguimiento a pedidos, consultas e incidencias.</p>
+        </div>
+    </div>
+</section>
+
+<section id="clientes">
+    <h2>Clientes a quienes servimos</h2>
+    <p>Nuestros servicios están dirigidos a empresas y personas que necesitan conservar sus productos en buenas condiciones durante el transporte.</p>
+    <div>
+        <span class="tag">Supermercados</span>
+        <span class="tag">Restaurantes</span>
+        <span class="tag">Hoteles</span>
+        <span class="tag">Farmacias</span>
+        <span class="tag">Distribuidoras de alimentos</span>
+        <span class="tag">Minisúper</span>
+        <span class="tag">Tiendas de conveniencia</span>
+        <span class="tag">Emprendedores</span>
+        <span class="tag">Clientes particulares</span>
+    </div>
+</section>
+
+<section id="cobertura">
+    <h2>Nuestra cobertura</h2>
+    <p>LOGIFRESH DISTRIBUTION, S.A. brinda servicios de distribución refrigerada en diferentes áreas de Panamá, iniciando desde nuestro centro principal en Panamá Pacífico.</p>
+    <div class="grid">
+        <div class="card">Panamá Centro</div>
+        <div class="card">Panamá Oeste</div>
+        <div class="card">Colón</div>
+        <div class="card">Coclé</div>
+        <div class="card">Herrera</div>
+        <div class="card">Los Santos</div>
+        <div class="card">Veraguas</div>
+        <div class="card">Rutas especiales para clientes corporativos</div>
+    </div>
+</section>
+
+<section id="metodologia">
+    <h2>Metodología de trabajo</h2>
+    <div class="grid">
+        <div class="box">
+            <h3>Participativa</h3>
+            <p>Realizamos encuestas, reuniones y talleres con conductores, clientes y proveedores para detectar problemas reales en la cadena de frío.</p>
+        </div>
+        <div class="box">
+            <h3>Activa</h3>
+            <p>Aplicamos simulaciones de rutas, capacitaciones prácticas y pruebas piloto con herramientas de monitoreo.</p>
+        </div>
+        <div class="box">
+            <h3>Comunicativa</h3>
+            <p>Utilizamos plataformas digitales, reportes de incidencias y comunicación constante entre choferes, supervisores y clientes.</p>
+        </div>
+    </div>
+</section>
+
+<section id="innovacion">
+    <h2>¿Por qué elegir LOGIFRESH?</h2>
+    <div class="cards">
+        <div class="service">
+            <h3>Tecnología en cadena de frío</h3>
+            <p>Uso de sensores y monitoreo en tiempo real para cuidar la temperatura de los productos.</p>
+        </div>
+        <div class="service">
+            <h3>Rutas inteligentes</h3>
+            <p>Planificación de recorridos para entregar más rápido y reducir gastos de operación.</p>
+        </div>
+        <div class="service">
+            <h3>Comunicación digital</h3>
+            <p>Seguimiento de pedidos, coordinación con clientes y reporte de incidencias en el momento.</p>
+        </div>
+        <div class="service">
+            <h3>Enfoque sostenible</h3>
+            <p>Buscamos reducir el consumo de combustible y disminuir el impacto ambiental.</p>
+        </div>
+    </div>
+</section>
+
+<section id="indicadores">
+    <h2>Indicadores de calidad</h2>
+    <p>Para mejorar el servicio, LOGIFRESH revisa constantemente sus resultados operativos.</p>
+    <div class="grid">
+        <div class="card"><div class="number">OTIF</div><p>Entregas completas y a tiempo.</p></div>
+        <div class="card"><div class="number">°C</div><p>Control de temperatura de la mercancía.</p></div>
+        <div class="card"><div class="number">GPS</div><p>Seguimiento de unidades en ruta.</p></div>
+        <div class="card"><div class="number">24/7</div><p>Monitoreo operativo para clientes con rutas continuas.</p></div>
+    </div>
+</section>
+
+<section id="equipo">
+    <h2>Equipo de trabajo</h2>
+    <p>La empresa cuenta con una estructura organizada para atender cada parte del proceso logístico.</p>
+    <div class="grid">
+        <div class="card"><strong>Gerente de operaciones:</strong> coordina la logística y supervisa los tiempos de entrega.</div>
+        <div class="card"><strong>Coordinador de flota:</strong> asigna rutas y controla el mantenimiento de los camiones.</div>
+        <div class="card"><strong>Supervisor de cadena de frío:</strong> monitorea sensores de temperatura y condiciones de conservación.</div>
+        <div class="card"><strong>Despachador:</strong> organiza la carga y la secuencia de entrega.</div>
+        <div class="card"><strong>Inspector de calidad:</strong> verifica higiene, fechas y condiciones sanitarias.</div>
+        <div class="card"><strong>Conductor:</strong> realiza la entrega puntual y reporta cualquier alerta.</div>
+        <div class="card"><strong>Atención al cliente:</strong> atiende consultas, reclamos y solicitudes.</div>
+        <div class="card"><strong>Administrador:</strong> revisa facturas, viáticos, peajes y liquidaciones.</div>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="blog-post">
+        <h3>La importancia de la cadena de frío</h3>
+        <p>
+            La cadena de frío permite conservar alimentos, medicamentos y otros productos sensibles en condiciones adecuadas. Si la temperatura no se controla bien, la mercancía puede perder calidad y generar pérdidas para el cliente.
+        </p>
+    </div>
+    <div class="blog-post">
+        <h3>Tecnología aplicada al transporte refrigerado</h3>
+        <p>
+            Los sensores de temperatura, el GPS y los sistemas de gestión de transporte ayudan a tener mayor control de la operación. Esto permite saber dónde está el vehículo y en qué condición viaja la mercancía.
+        </p>
+    </div>
+    <div class="blog-post">
+        <h3>Cómo mejorar las entregas</h3>
+        <p>
+            Una buena planificación de rutas reduce atrasos, consumo de combustible y costos. También mejora la experiencia del cliente porque recibe su pedido en el tiempo esperado.
+        </p>
+    </div>
+</section>
+
+<section id="testimonios">
+    <h2>Testimonios de clientes</h2>
+    <div class="grid">
+        <div class="box">
+            <p>“El servicio ha sido puntual y los productos llegan en buenas condiciones.”</p>
+            <strong>Carlos Méndez - Supermercado local</strong>
+        </div>
+        <div class="box">
+            <p>“La comunicación y el seguimiento de las entregas nos brinda mucha confianza.”</p>
+            <strong>Ana Rodríguez - Restaurante</strong>
+        </div>
+        <div class="box">
+            <p>“Nos ayudaron a mejorar nuestros tiempos de abastecimiento.”</p>
+            <strong>José Castillo - Distribuidora de alimentos</strong>
+        </div>
+    </div>
+</section>
+
+<section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p><strong>Centro de Distribución Principal:</strong></p>
+    <p>Building 3860, International Business Park, Panamá Pacífico, Veracruz, Arraiján, Panamá Oeste, Panamá.</p>
+    <div class="note">
+        <p><strong>Horario de atención:</strong></p>
+        <p>Lunes a viernes: 7:00 a.m. - 6:00 p.m.<br>
+        Sábado: 8:00 a.m. - 1:00 p.m.<br>
+        Domingo: cerrado</p>
+    </div>
+    <br>
+    <iframe src="https://www.google.com/maps?q=Panama%20Pacifico%20International%20Business%20Park&output=embed" loading="lazy"></iframe>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contacto">
+        <div>
+            <p><strong>Teléfono:</strong> +507 6789-1234</p>
+            <p><strong>WhatsApp:</strong> +507 6789-1234</p>
+            <p><strong>Correo:</strong> info@logifresh.com.pa</p>
+            <p><strong>Sitio web:</strong> www.logifresh.com.pa</p>
+            <p><strong>Instagram:</strong> @logifresh_pa</p>
+            <p><strong>Facebook:</strong> Logifresh Distribution</p>
+            <p><strong>LinkedIn:</strong> Logifresh Distribution S.A.</p>
+        </div>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Escriba su nombre">
+            <label>Correo:</label>
+            <input type="email" placeholder="Escriba su correo">
+            <label>Servicio que necesita:</label>
+            <input type="text" placeholder="Ejemplo: transporte refrigerado">
+            <label>Mensaje:</label>
+            <textarea rows="5" placeholder="Escriba su mensaje"></textarea>
+            <button type="submit">Enviar solicitud</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 LOGIFRESH DISTRIBUTION, S.A.</p>
+    <p>Todos los derechos reservados.</p>
+    <p>Building 3860, International Business Park, Panamá Pacífico, Veracruz, Arraiján, Panamá Oeste.</p>
+</footer>
+
+</body>
+</html>
